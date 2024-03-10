@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEBF8722B98529A00850C6E /* IOSSpinWheelViewTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBF8712B98529A00850C6E /* IOSSpinWheelViewTestApp.swift */; };
+		FAEBF8742B98529A00850C6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBF8732B98529A00850C6E /* ContentView.swift */; };
+		FAEBF8762B9852A000850C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEBF8752B9852A000850C6E /* Assets.xcassets */; };
+		FAEBF8792B9852A000850C6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEBF8782B9852A000850C6E /* Preview Assets.xcassets */; };
+		FAEBF8812B98558D00850C6E /* FlutterModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBF8802B98558D00850C6E /* FlutterModuleView.swift */; };
+		FAEBF8852B986E5C00850C6E /* FlutterEngineClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBF8842B986E5C00850C6E /* FlutterEngineClass.swift */; };
+		FC1C7527F8478C1EA3A396CC /* Pods_IOSSpinWheelViewTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F95F6CB5FAC3A61E6F475B /* Pods_IOSSpinWheelViewTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96F95F6CB5FAC3A61E6F475B /* Pods_IOSSpinWheelViewTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSSpinWheelViewTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD433A464C57EC8348C5ACE /* Pods-IOSSpinWheelViewTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSSpinWheelViewTest.debug.xcconfig"; path = "Target Support Files/Pods-IOSSpinWheelViewTest/Pods-IOSSpinWheelViewTest.debug.xcconfig"; sourceTree = "<group>"; };
+		CB27B121D5C00B5C44DFA249 /* Pods-IOSSpinWheelViewTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSSpinWheelViewTest.release.xcconfig"; path = "Target Support Files/Pods-IOSSpinWheelViewTest/Pods-IOSSpinWheelViewTest.release.xcconfig"; sourceTree = "<group>"; };
+		FAEBF86E2B98529A00850C6E /* IOSSpinWheelViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSSpinWheelViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEBF8712B98529A00850C6E /* IOSSpinWheelViewTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSSpinWheelViewTestApp.swift; sourceTree = "<group>"; };
+		FAEBF8732B98529A00850C6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAEBF8752B9852A000850C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEBF8782B9852A000850C6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAEBF8802B98558D00850C6E /* FlutterModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterModuleView.swift; sourceTree = "<group>"; };
+		FAEBF8842B986E5C00850C6E /* FlutterEngineClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterEngineClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEBF86B2B98529A00850C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1C7527F8478C1EA3A396CC /* Pods_IOSSpinWheelViewTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23AB50EA0A4DED24DF979BCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96F95F6CB5FAC3A61E6F475B /* Pods_IOSSpinWheelViewTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E09BEF7E9694FA1D176A5822 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABD433A464C57EC8348C5ACE /* Pods-IOSSpinWheelViewTest.debug.xcconfig */,
+				CB27B121D5C00B5C44DFA249 /* Pods-IOSSpinWheelViewTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAEBF8652B98529A00850C6E = {
+			isa = PBXGroup;
+			children = (
+				FAEBF8702B98529A00850C6E /* IOSSpinWheelViewTest */,
+				FAEBF86F2B98529A00850C6E /* Products */,
+				E09BEF7E9694FA1D176A5822 /* Pods */,
+				23AB50EA0A4DED24DF979BCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEBF86F2B98529A00850C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBF86E2B98529A00850C6E /* IOSSpinWheelViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEBF8702B98529A00850C6E /* IOSSpinWheelViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBF8712B98529A00850C6E /* IOSSpinWheelViewTestApp.swift */,
+				FAEBF8732B98529A00850C6E /* ContentView.swift */,
+				FAEBF8752B9852A000850C6E /* Assets.xcassets */,
+				FAEBF8772B9852A000850C6E /* Preview Content */,
+				FAEBF8802B98558D00850C6E /* FlutterModuleView.swift */,
+				FAEBF8842B986E5C00850C6E /* FlutterEngineClass.swift */,
+			);
+			path = IOSSpinWheelViewTest;
+			sourceTree = "<group>";
+		};
+		FAEBF8772B9852A000850C6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBF8782B9852A000850C6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEBF86D2B98529A00850C6E /* IOSSpinWheelViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEBF87C2B9852A000850C6E /* Build configuration list for PBXNativeTarget "IOSSpinWheelViewTest" */;
+			buildPhases = (
+				C2C9CD554902A8F8053E7622 /* [CP] Check Pods Manifest.lock */,
+				7E6038ECE969269264DB5214 /* [CP-User] Run Flutter Build untitled Script */,
+				FAEBF86A2B98529A00850C6E /* Sources */,
+				FAEBF86B2B98529A00850C6E /* Frameworks */,
+				FAEBF86C2B98529A00850C6E /* Resources */,
+				863F7CD528A686CE18253FCC /* [CP-User] Embed Flutter Build untitled Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSSpinWheelViewTest;
+			productName = IOSSpinWheelViewTest;
+			productReference = FAEBF86E2B98529A00850C6E /* IOSSpinWheelViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEBF8662B98529A00850C6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FAEBF86D2B98529A00850C6E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = FAEBF8692B98529A00850C6E /* Build configuration list for PBXProject "IOSSpinWheelViewTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEBF8652B98529A00850C6E;
+			productRefGroup = FAEBF86F2B98529A00850C6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEBF86D2B98529A00850C6E /* IOSSpinWheelViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEBF86C2B98529A00850C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEBF8792B9852A000850C6E /* Preview Assets.xcassets in Resources */,
+				FAEBF8762B9852A000850C6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E6038ECE969269264DB5214 /* [CP-User] Run Flutter Build untitled Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build untitled Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../untitled/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		863F7CD528A686CE18253FCC /* [CP-User] Embed Flutter Build untitled Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Embed Flutter Build untitled Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../untitled/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
+		C2C9CD554902A8F8053E7622 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOSSpinWheelViewTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEBF86A2B98529A00850C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEBF8742B98529A00850C6E /* ContentView.swift in Sources */,
+				FAEBF8852B986E5C00850C6E /* FlutterEngineClass.swift in Sources */,
+				FAEBF8812B98558D00850C6E /* FlutterModuleView.swift in Sources */,
+				FAEBF8722B98529A00850C6E /* IOSSpinWheelViewTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAEBF87A2B9852A000850C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAEBF87B2B9852A000850C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEBF87D2B9852A000850C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD433A464C57EC8348C5ACE /* Pods-IOSSpinWheelViewTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IOSSpinWheelViewTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 3R75HQ26X6;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.IOSSpinWheelViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAEBF87E2B9852A000850C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB27B121D5C00B5C44DFA249 /* Pods-IOSSpinWheelViewTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IOSSpinWheelViewTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 3R75HQ26X6;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.IOSSpinWheelViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEBF8692B98529A00850C6E /* Build configuration list for PBXProject "IOSSpinWheelViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEBF87A2B9852A000850C6E /* Debug */,
+				FAEBF87B2B9852A000850C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEBF87C2B9852A000850C6E /* Build configuration list for PBXNativeTarget "IOSSpinWheelViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEBF87D2B9852A000850C6E /* Debug */,
+				FAEBF87E2B9852A000850C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEBF8662B98529A00850C6E /* Project object */;
+}
